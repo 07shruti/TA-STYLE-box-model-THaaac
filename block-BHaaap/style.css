@@ -47,23 +47,39 @@ table {
 	border-spacing: 0;
 }
 /* custom styles */
-h1{
-    font-size: 36px;
+.heading{
+    font-size: 39px;
+    text-align: center;
     background-color: #D18C1D;
     border: 1px solid red, ;
     padding: 10px;
 }
-.box
+img
 {
-    text-transform: uppercase;
-    background-color: crimson;
-    width: 100px;
-    height: 100px;
-    border: 10px  solid aqua;
+    width: 300px;
     border-radius: 12px;
 }
-.footer
+.circle
 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+}
+.box
+{
+    width: 600px;
+    height: 300px;
+    border: 2px  dotted black;
+    background-color:  #D1D631;
+    padding: 22px;
+}
+a
+{
+    text-decoration: none;
     background-color: #A1A1A1;
     border-bottom: 3px dashed  blue;
+    padding: 20px;
+    font-size: 25px;
+    display: inline-block;
 }
