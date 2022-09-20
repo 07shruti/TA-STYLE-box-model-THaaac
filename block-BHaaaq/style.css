@@ -47,24 +47,56 @@ table {
 	border-spacing: 0;
 }
 /* custom styles*/
+h1
+{
+    font-size: 26px;
+    margin: 22px 26px;
+}
 .box
 {
     height: 30px;
     width: 30px;
     padding: 18px;
-    border: 1px solid black;
+    border: 5px solid black;
     background-color: brown;
     margin: 20px;
-}
-span
-{
     display: inline-block;
-    height: 30px;
-    width: 30px;
-    padding: 18px;
-    border: 1px double black, 1px dotted black;
-    background-color: brown;
+}
+.double
+{
+    border-style: double;
+}
+.dashed
+{
+    border-style: dashed;
+}
+.dotted
+{
+    border-style: dotted;
+}
+.no-border
+{
+    border-style: none;
+}
+p
+{
+    width: 300px;
+    font-size: 18px;
+    color: white;
+    background-color: red;
+    padding: 18px   18px;
     margin: 20px;
+    border-top: 10px solid blue;
+    border-bottom:10px solid yellow;
+    border-left:10px solid green;
+    border-right:10px solid grey;
+}
+.para-container
+{
+    background-color: indigo;
+    display: inline-block;
+    padding: 10px 5px;
+    margin: 18px;
 }
 
 
